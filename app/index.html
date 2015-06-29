@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="import" href="bower_components/google-map/google-map.html">
+    <link rel="import" href="bower_components/google-youtube/google-youtube.html">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <style>
+      google-map {
+        margin-bottom: 2px;
+        height: 50%;
+      }
+      google-youtube {
+        width: 32%;
+        margin: 1px;
+        float: left;
+      }
+      ul {
+        margin-top: 100px;
+      }
+      li {
+        height: 70px;
+        text-align: center;
+        list-style: none;
+      }
+      a {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: #FFF;
+        background: #22A7F0;
+        border: 2px solid #4183D7;
+        border-radius: 10px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <google-map latitude="-27.6004363" longitude="-48.5197281" fit-to-markers zoom="15">
+      <google-map-marker latitude="-27.6004363" longitude="-48.5197281" draggable="true" title="UFSC"></google-map-marker>
+    </google-map>
+    <google-youtube video-id="qiS9quLEOuc" autoplay="1"></google-youtube>
+    <google-youtube video-id="BEktBn4V2ZM" autoplay="1"></google-youtube>
+    <ul>
+      <li>
+        <a target="_blank" href="#"><i class="fa fa-2x fa-facebook"></i> UFSC no Facebook</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://twitter.com/ufsc"><i class="fa fa-2x fa-twitter  "></i> UFSC no Twitter</a>
+      </li>
+    </ul>
+  </body>
+</html>

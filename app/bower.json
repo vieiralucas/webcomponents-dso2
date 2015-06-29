@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vieiralucas/webcomponents-dso2",
+  "authors": [
+    "Lucas Vieira <vieiralucas4@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-map": "~1.0.3",
+    "google-youtube": "~1.1.1",
+    "font-awesome": "~4.3.0"
+  }
+}
