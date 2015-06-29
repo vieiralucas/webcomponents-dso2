@@ -9,8 +9,9 @@ Camera.createdCallback = function() {
     alert('panic mode on!')
   }
 
+  video.style.height = this.getAttribute('height') || "100vh"
   video.setAttribute('autoplay', true)
-  video.style.height = "100vh"
+  video.setAttribute('controls', true)
   this.appendChild(video)
 
   navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
