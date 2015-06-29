@@ -1,0 +1,10 @@
+botao-legal {
+  padding: 3px;
+  cursor: default;
+  background: #DDD;
+  border: 3px solid #000;
+}
+
+botao-legal:hover {
+  background: #EEE;
+}
